@@ -39,4 +39,4 @@ app.get("*", (req, res) => {
 // 	connectToMongoDB();
 // 	console.log(`Server Running on port ${PORT}`);
 // });
-module.exports=app
+export default app;
