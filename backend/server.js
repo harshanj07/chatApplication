@@ -21,6 +21,9 @@ app.use(cookieParser());
 (async()=>{
 	await connectToMongoDB()
 })()
+app.get("/", (req, res) => {
+    res.send("Hello from Express on Vercel!");
+  });
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
