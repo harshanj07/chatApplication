@@ -19,10 +19,6 @@ app.use(express.json()); // to parse the incoming requests with JSON payloads (f
 app.use(cookieParser());
 
 
-app.get("/", (req, res) => {
-    res.send("Hello from Express on Vercel!");
-  });
-
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 app.use("/api/users", userRoutes);
