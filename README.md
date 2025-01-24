@@ -31,10 +31,6 @@ npm run build
 npm start
 ```
 
-```
-Deployment link:[Visit My Chat App](https://chatapplication-xu8n.onrender.com)
-
-
 https://chatapplication-xu8n.onrender.com
 ```
 
