@@ -31,6 +31,10 @@ npm run build
 npm start
 ```
 
+```
+Deployment link: https://chatapplication-xu8n.onrender.com
+```
+
 ## How to use:
 1. get signup by giving ur details
 2. enter signup
