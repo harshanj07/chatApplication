@@ -31,12 +31,10 @@ npm run build
 npm start
 ```
 
-```
 #How to use:
 1. get signup by giving ur detaills
 2. enter signup
 3. chat with the persons,use windows+. for emojis
-```
 
 
 
