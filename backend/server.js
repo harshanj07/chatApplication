@@ -18,9 +18,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json()); // to parse the incoming requests with JSON payloads (from req.body)
 app.use(cookieParser());
 
-(async()=>{
-	await connectToMongoDB()
-})()
+
 app.get("/", (req, res) => {
     res.send("Hello from Express on Vercel!");
   });
@@ -35,8 +33,8 @@ app.get("*", (req, res) => {
 	res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
 });
 
-// server.listen(PORT, () => {
-// 	connectToMongoDB();
-// 	console.log(`Server Running on port ${PORT}`);
-// });
+server.listen(PORT, () => {
+	connectToMongoDB();
+	console.log(`Server Running on port ${PORT}`);
+});
 export default app;
