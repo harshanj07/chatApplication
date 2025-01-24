@@ -31,10 +31,12 @@ npm run build
 npm start
 ```
 
-# How to use:
-1. get signup by giving ur detaills
+## How to use:
+1. get signup by giving ur details
 2. enter signup
-3. chat with the persons,use windows+. for emojis
+3. chat with the people who signedin before
+4. chat with the persons, use 'windows+.'key to send emojis
+   
 
 
 
