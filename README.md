@@ -32,7 +32,9 @@ npm start
 ```
 
 ```
-Deployment link: https://chatapplication-xu8n.onrender.com
+Deployment link:[Visit My App](https://chatapplication-xu8n.onrender.co)
+
+https://chatapplication-xu8n.onrender.co
 ```
 
 ## How to use:
